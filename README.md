@@ -1,44 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# React capstone project - metrics webapp
 
-## Available Scripts
+> This is a React-Redux project where a user has access to Covid-19 information through an API and has access to detailed information for each country, this application was made with React & Redux.
+![screenshot](./1_screenshot.png)
 
-In the project directory, you can run:
+## Built With
 
-### `yarn start`
+- React
+- HTML
+- CSS
+- JavaScript
+- ESLint
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Live Demo
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[Live Demo Link](https://suspicious-einstein-3746cf.netlify.app/)
 
-### `yarn test`
+## Getting Started
+1. Clone this repo on your local machine
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. In the path where your repository is located, you will open your terminal.
 
-### `yarn build`
+3. In the path where your repository is located you are going to open your terminal and put ```npm install``` hit enter, after that type the command ```npm start```.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Enjoy.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Prerequisites
+To make this repository working in your local machine you need only a browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `yarn eject`
+👤 **Arístides José Molina Pérez**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Github: [@aristides1000](https://github.com/aristides1000)
+- Twitter: [@aristides_1000](https://twitter.com/aristides_1000)
+- Linkedin: [Aristides Jose Molina Perez](https://www.linkedin.com/in/aristides-molina/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Contributions, issues and feature requests are welcome!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Feel free to check the [issues page](https://github.com/aristides1000/react-capstone-project-metrics-webapp/issues).
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Ariel Camus CEO Microverse: For letting us start this journey.
+- Google: For letting us find crucial information in order to create this project.
+
+## 📝 License
+
+This project is [CC0-1.0](LICENSE) licensed.
