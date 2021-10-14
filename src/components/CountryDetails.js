@@ -22,40 +22,46 @@ function CountryDetails() {
             {country ? Number(country.today_deaths).toLocaleString() : '0'}
           </p>
         </div>
-        <ul className="col-12">
-          <li>
-            <p className="text-white">
+        <ul className="col-12 px-0 mb-0">
+          <li className="intense-magenta list-style-none p-3">
+            <p className="text-white mb-0">
               New confirm:
+              {' '}
               { country.today_new_confirmed }
             </p>
           </li>
-          <li>
-            <p className="text-white">
+          <li className="light-magenta list-style-none p-3">
+            <p className="text-white mb-0">
               New deaths:
+              {' '}
               { country.today_new_deaths }
             </p>
           </li>
-          <li>
-            <p className="text-white">
+          <li className="intense-magenta list-style-none p-3">
+            <p className="text-white mb-0">
               New recovered:
+              {' '}
               { country.today_new_recovered }
             </p>
           </li>
-          <li>
-            <p className="text-white">
+          <li className="light-magenta list-style-none p-3">
+            <p className="text-white mb-0">
               Open Cases:
+              {' '}
               { country.today_open_cases }
             </p>
           </li>
-          <li>
-            <p className="text-white">
+          <li className="intense-magenta list-style-none p-3">
+            <p className="text-white mb-0">
               New Open Cases:
+              {' '}
               { country.today_new_open_cases }
             </p>
           </li>
-          <li>
-            <p className="text-white">
+          <li className="light-magenta list-style-none p-3">
+            <p className="text-white mb-0">
               Source:
+              {' '}
               { country.source }
             </p>
           </li>
