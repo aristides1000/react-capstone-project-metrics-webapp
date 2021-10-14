@@ -11,13 +11,10 @@ const loadCountries = (payload) => ({
 export const fetchVirus = async (dispatch) => {
   const currentDate = new Date().toISOString().slice(0, 10);
   await fetch(`https://api.covid19tracking.narrativa.com/api/${currentDate}`)
-    .then((response) => {
-      console.log(response);
-      return response.json();
-    })
+    .then((response) => response.json())
     .then((data) => {
-      const totalConfirmed = data.today.today_confirmed;
-      const { countries } = data.date[currentDate];
+      const totalConfirmed = data.total.today_confirmed;
+      const { countries } = data.dates[currentDate];
       dispatch(loadCountries({ countries, totalConfirmed }));
     }).catch((error) => {
       console.log(error);
