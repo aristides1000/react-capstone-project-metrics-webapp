@@ -18,7 +18,7 @@
 
 ## Video
 
-[Video Link](https://suspicious-einstein-3746cf.netlify.app/)
+[Video Link](https://www.loom.com/share/0fd12529f79943fea425587a92475ff8)
 
 ## Getting Started
 1. Clone this repo on your local machine
