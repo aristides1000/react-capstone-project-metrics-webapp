@@ -16,8 +16,6 @@ export const fetchVirus = async (dispatch) => {
       const totalConfirmed = data.total.today_confirmed;
       const { countries } = data.dates[currentDate];
       dispatch(loadCountries({ countries, totalConfirmed }));
-    }).catch((error) => {
-      console.log(error);
     });
 };
 
