@@ -1,7 +1,8 @@
 # React capstone project - metrics webapp
 
 > This is a React-Redux project where a user has access to Covid-19 information through an API and has access to detailed information for each country, this application was made with React & Redux.
-![screenshot](./1_screenshot.png)
+![screenshot_1](./1_screenshot.png)
+![screenshot_2](./2_screenshot.png)
 
 ## Built With
 
