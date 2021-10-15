@@ -14,7 +14,11 @@
 
 ## Live Demo
 
-[Live Demo Link](https://suspicious-einstein-3746cf.netlify.app/)
+[Live Demo Link](https://thirsty-ride-5c3f5e.netlify.app/)
+
+## Video
+
+[Video Link](https://suspicious-einstein-3746cf.netlify.app/)
 
 ## Getting Started
 1. Clone this repo on your local machine
